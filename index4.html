@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Perfumes</title>
+    <link rel="stylesheet" href="index4.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  </head>
+
+
+<body>
+  
+   <div> <img class="principal" src="img/7E46D107-9FA2-4772-867D-4A75145DC5B9.jpg" alt=""></div>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">ÉclatParfumerie ✩</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Carrito</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tipos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Hombres</a></li>
+                      <li><a class="dropdown-item" href="#">Muejeres</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Unisex</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">©</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="buscar">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+    </header>
+    
+    <header>
+      <h1>Carrito de Compras</h1>
+  </header>
+  <section class="cart">
+     
+      <p>Total: <span id="cart-total">$0.00</span></p>
+      <button id="checkout-btn">Pagar</button>
+  </section>
+  <section class="products">
+      <h2>Productos Disponibles</h2>
+      <ul id="product-list">
+          <!-- Aquí se listarán los productos disponibles -->
+      </ul>
+  </section>
+  <script src="script.js"></script>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/Y0996157_C099600157_E01_ZHC.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dior Homme Eau De Toilette</h5>
+              <p class="card-text">Una firma olfativa sexy realzada por viriles notas amaderadas, que aportan una sofisticación insólitamente sutil.</p>
+              <h1>$100.00</h1>
+              <button class="btn btn-outline-dark">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/51LdGsFUA8L._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">9pm Eau De Parfum for men</h5>
+              <p class="card-text">9pm de Afnan es una fragancia de la familia olfativa Ámbar Vainilla para Hombres.</p>
+              <h1>$60.00</h1>
+              <button class="btn btn-outline-dark">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/carolina-herrera-women-s-perfume-carolina-herrera-212-for-her-eau-de-toilette-women-s-perfume-spray-30ml-60ml-100ml-20596094959775.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">212 NYC Eau De Toilette for Women</h5>
+              <p class="card-text">212 NYC de CAROLINA HERRERA es un “Eau de Toilette” fresca y ligera, con un toque irresistiblemente floral, que aporta un halo irresistible y dinámico.</p>
+              <h1>$110.00</h1>
+            <button class="btn btn-outline-dark">Agregar al carrito</button>
+        </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/product-543702.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">A&F Authentic EDP for Women</h5>
+              <p class="card-text">Authentic for Women es frescura para la joven que prospera con la transparencia y se niega a ser etiquetada o definida.</p>
+              <h1>$65.00</h1>
+              <button class="btn btn-outline-dark">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="img/51M4nr6cZwL.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Alien Fusion by Thierry Mugler EDP for Women</h5>
+                <p class="card-text">Alien Fusion de Mugler es una fragancia de la familia olfativa Ámbar Floral para Mujeres.</p>
+                <h1>$80.00</h1>
+                <button class="btn btn-outline-dark">Agregar al carrito</button>
+              </div>
+            </div>
+          </div> 
+      </div>
+        
+  </div>
+  </div>
+    </div>
+      
+      
+        
+    
+      <nav aria-label="page">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link">Atras</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Siguiente</a>
+          </li>
+        </ul>
+      </nav>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Tienda de Perfumes. Yassiel Concepción.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+
